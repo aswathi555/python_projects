@@ -1,4 +1,4 @@
-{% load static %}
+t{% load static %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -31,7 +31,7 @@
 							<nav class="main_nav">
 								<ul class="d-flex flex-row align-items-start justify-content-start">
 									<li><a href="index.html">Home</a></li>
-									<li class="active"><a href="about.html">About us</a></li>
+									<li class="active"><a href="credentials/about">About us</a></li>
 									{% if user.is_authenticated %}
 									<li>Hello {{user.username}}</li>
 									<li><a href="credentials/logout">Logout</a></li>
